@@ -1,0 +1,134 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+/* Top header */
+
+body{
+    background: #D8D8D6;
+}
+
+main{
+}
+
+.wraper{
+}
+
+.main_header + div{
+    display: flex;
+}
+
+.container{
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Header   */
+
+.main_header{
+    background: #81A36B;
+    padding: 25px 0;
+}
+
+.header_logo{
+    
+}
+
+.menu_header{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 18px;
+}
+
+.menu_header, .header_logo{
+    margin: 25 auto;
+}
+
+
+/* amelia flowers  */
+
+.amelia_flowers{
+}
+
+.container_box{
+}
+
+.main_title{
+}
+
+.first_section{
+    display: flex;
+    overflow: hidden;
+}
+
+
+.double_btn {
+    background: transparent;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 25px;
+    text-decoration: none;
+    width: 157px;
+    height: 60px;
+}
+
+.double_btn + button{
+    background: #81A36B;
+}
+
+
+.foto_2{
+}
