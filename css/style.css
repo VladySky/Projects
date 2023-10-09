@@ -1,4 +1,4 @@
-* {
+*,::before, *::after {
 	box-sizing: border-box;
 }
 
@@ -46,16 +46,56 @@ table {
 	border-spacing: 0;
 }
 
+html, body{
+    scroll-behavior: smooth;
+}
+
 .clearfix::after {
 	content: '';
 	display: block;
 	clear: both;
 }
 
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Architects Daughter';
+    src: url('../fonts/ArchitectsDaughter-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
 /* Top header */
 
 body{
     background: #D8D8D6;
+    color: #161616;
+    ont-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
 }
 
 main{
@@ -69,8 +109,12 @@ main{
 }
 
 .container{
-    width: 1110px;
+    width: 1140px;
     margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header_container{
     display: flex;
     justify-content: space-between;
 }
@@ -86,6 +130,10 @@ main{
     
 }
 
+.header_logo img{
+    
+}
+
 .menu_header{
     display: flex;
     align-items: center;
@@ -97,25 +145,25 @@ main{
     margin: 25 auto;
 }
 
-
 /* amelia flowers  */
 
 .amelia_flowers{
 }
 
-.container_box{
+.container_box {
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
 
 .main_title{
 }
 
 .first_section{
-    display: flex;
-    overflow: hidden;
 }
 
 
-.double_btn {
+/*.double_btn { 
     background: transparent;
     cursor: pointer;
     font-size: 20px;
@@ -123,10 +171,9 @@ main{
     text-decoration: none;
     width: 157px;
     height: 60px;
-}
+}*/
 
 .double_btn + button{
-    background: #81A36B;
 }
 
 
