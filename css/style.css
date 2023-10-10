@@ -96,6 +96,7 @@ body{
     ont-family: 'Roboto';
     font-weight: 400;
     font-size: 18px;
+    line-height: 30px;
 }
 
 main{
@@ -114,6 +115,13 @@ main{
     padding: 0 15px;
 }
 
+.subtitle{
+    font-family: "Architects Daughter";
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 50px;
+}
+
 .header_container{
     display: flex;
     justify-content: space-between;
@@ -127,7 +135,6 @@ main{
 }
 
 .header_logo{
-    
 }
 
 .header_logo img{
@@ -139,15 +146,20 @@ main{
     align-items: center;
     gap: 30px;
     font-size: 18px;
+    text-decoration: none;
 }
 
-.menu_header, .header_logo{
-    margin: 25 auto;
+.menu_header > li a{
+    text-decoration: none;
 }
+
+
+.menu_header, .header_logo{}
 
 /* amelia flowers  */
 
 .amelia_flowers{
+    padding-bottom: 120px;
 }
 
 .container_box {
@@ -157,25 +169,80 @@ main{
 }
 
 .main_title{
+    margin-bottom: 40px;
+    font-family: "Architects Daughter";
+    font-size: 62px;
 }
 
-.first_section{
+.main_title + p{
+    margin-bottom: 40px;
 }
 
-
-/*.double_btn { 
-    background: transparent;
-    cursor: pointer;
-    font-size: 20px;
-    padding: 10px 25px;
+.flowers-buttons {
+    font-size: 0;
+}
+.btn {
+    display: inline-block;
     text-decoration: none;
-    width: 157px;
-    height: 60px;
-}*/
-
-.double_btn + button{
+    font-size: 18px;
+    color: #161616;
+    border: 0;
+    border-radius: 6px;
+    background: #81A36B;
+    padding: 18px 34px;
+    cursor: pointer;
+    border: 1px solid #81A36B;
+    margin-left: 23px;
 }
 
+.btn:first-child {
+    margin-left: 0;
+}
+
+.btn-outline {
+    background: transparent;
+}
+
+.first_section,
+.foto_2{
+    flex: 1 1 540px;
+}
 
 .foto_2{
+    height: 670px;
+}
+
+.foto_2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Section about */
+
+.about{
+    text-align: center;
+    padding-bottom: 120px;
+}
+
+.about_container{
+    width: 570px;
+}
+
+/* Section icons  */
+
+.icon{
+    background: #81A36B;
+}
+
+.icon_container{
+    padding: 78px;
+}
+
+.ul_icon{
+    display: flex;
+    justify-content: space-between;
+}
+.li_icons img {
+    justify-content: center;
 }
