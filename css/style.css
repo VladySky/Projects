@@ -93,7 +93,7 @@ html, body{
 body{
     background: #D8D8D6;
     color: #161616;
-    ont-family: 'Roboto';
+    font-family: "Roboto";
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
@@ -134,12 +134,6 @@ main{
     padding: 25px 0;
 }
 
-.header_logo{
-}
-
-.header_logo img{
-    
-}
 
 .menu_header{
     display: flex;
@@ -151,15 +145,14 @@ main{
 
 .menu_header > li a{
     text-decoration: none;
+    color: #161616;
 }
 
-
-.menu_header, .header_logo{}
 
 /* amelia flowers  */
 
 .amelia_flowers{
-    padding-bottom: 120px;
+    padding-bottom: 60px;
 }
 
 .container_box {
@@ -222,7 +215,7 @@ main{
 
 .about{
     text-align: center;
-    padding-bottom: 120px;
+    padding: 60px 0;
 }
 
 .about_container{
@@ -233,16 +226,131 @@ main{
 
 .icon{
     background: #81A36B;
+    margin: 60px 0;
 }
 
 .icon_container{
     padding: 78px;
+
 }
 
 .ul_icon{
     display: flex;
     justify-content: space-between;
 }
-.li_icons img {
-    justify-content: center;
+
+/* Section how we are working */
+
+.working{
+    padding: 60px 0;
+}
+
+.working_container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.working_img,
+.working_text{
+    flex: 1 1 540px;
+}
+
+.working_img{
+    height: 560px;
+}
+
+.working_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.working_subtitle{
+    text-align: center;
+}
+
+/* Section cards */
+
+.works{
+    padding: 60px 0 120px;
+}
+
+.works_container{}
+
+.works_subtitle{
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.card{
+    border-radius: 6px;
+    background: #81A36B;
+    padding: 15px 15px 0 15px;
+}
+
+.link{
+    padding-bottom: -22px;
+}
+
+.link img{
+    padding-bottom: 23px;
+    display: block;
+}
+
+.working_text a{
+    text-decoration: none;
+    color: #161616;
+    text-align: center;
+}
+
+.working_text p{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+
+/*Footer */
+
+.footer{
+    background: #81A36B;
+}
+
+.amelia_info{
+    display: block;
+    text-align: center;
+}
+
+.footer_amelia{
+    color: #161616;
+    font-family: "Architects Daughter";
+    font-size: 36px;
+    line-height: 36px;
+    padding: 50px 0 25px;
+}
+
+.contacts_amelia{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.social_media{
+}
+
+.social_media a{
+    text-decoration: none;
+    color: #161616;
+}
+
+.social_media > li, li{
+    padding-bottom: 15px;
+}
+
+.date{
+    padding-bottom: 50px;
 }
