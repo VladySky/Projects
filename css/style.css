@@ -338,13 +338,22 @@ body{
 .in_te_vib{
     display: flex;
     justify-content: center;
-    padding-top: 10px;
     gap: 10px;
+    
 }
 
-.in_te_vib li,a{
+.in_te_vib a{
     display: inline-block;
+    width: 24px;
+    height: 24px;
 }
+
+.in_te_vib li{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
 
 .date{
     padding-bottom: 50px;
