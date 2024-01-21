@@ -99,11 +99,6 @@ body{
     line-height: 30px;
 }
 
-main{
-}
-
-.wraper{
-}
 
 .main_header + div{
     display: flex;
@@ -125,6 +120,7 @@ main{
 .header_container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 /* Header   */
@@ -227,16 +223,13 @@ main{
 .icon{
     background: #81A36B;
     margin: 60px 0;
-}
-
-.icon_container{
     padding: 78px;
-
 }
 
 .ul_icon{
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 
 /* Section how we are working */
@@ -276,8 +269,6 @@ main{
     padding: 60px 0 120px;
 }
 
-.works_container{}
-
 .works_subtitle{
     text-align: center;
 }
@@ -291,15 +282,16 @@ main{
 .card{
     border-radius: 6px;
     background: #81A36B;
-    padding: 15px 15px 0 15px;
+    padding: 15px 15px 40px 15px;
+    text-align: center;
 }
 
 .link{
-    padding-bottom: -22px;
+    display: block;
+    margin-bottom: 20px;
 }
 
 .link img{
-    padding-bottom: 23px;
     display: block;
 }
 
@@ -311,7 +303,6 @@ main{
 
 .working_text p{
     text-align: center;
-    padding-bottom: 40px;
 }
 
 
@@ -339,16 +330,20 @@ main{
     padding-bottom: 20px;
 }
 
-.social_media{
-}
-
 .social_media a{
     text-decoration: none;
     color: #161616;
 }
 
-.social_media > li, li{
-    padding-bottom: 15px;
+.in_te_vib{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    gap: 10px;
+}
+
+.in_te_vib li,a{
+    display: inline-block;
 }
 
 .date{
